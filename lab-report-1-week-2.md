@@ -1,3 +1,7 @@
+---
+layout: subpage
+---
+
 # [Home](index.md)
 
 ## Installing VScode
