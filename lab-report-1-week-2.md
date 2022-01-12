@@ -2,7 +2,8 @@
 layout: subpage
 ---
 
-# [Home](index.md)
+# [Lab Report 1 (week 2)](index.md)
+
 
 ## Installing VScode
 ## Remotely Connecting
