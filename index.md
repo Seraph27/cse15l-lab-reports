@@ -1,4 +1,6 @@
-# Welcome to cse15 lab website
+---
+layout: default
+---
 
 ![Image](testimg.jpg)
 
