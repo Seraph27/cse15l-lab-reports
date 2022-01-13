@@ -11,6 +11,8 @@ Download vscode from the official website
 When you open vscode it should look something like this. The themes might be different but you'll see a text editor
 
 ![Image](img/vscode_interface.png)
+
+---
 ## Remotely Connecting
  
 Open terminal with the bar on the top of vscode
@@ -22,6 +24,8 @@ In the terminal we can type `ssh <yourusername@ieng6.ucsd.edu>` to login remotel
 Replace yourusername with the personal email or the class header (cs15lwi22ath for cse15 winter 2022)
 
 ![Image](img/ssh_login.png)
+
+---
 ## Trying Some Commands
 After logging in, we can try some commands
 
@@ -29,9 +33,16 @@ After logging in, we can try some commands
 `cd <directory name>`  can let us move into another directory\
 `cat` short for concatenate can view content of a file or create new files
 
+![Image](img/test_commands.png)
+
+---
 ## Moving Files with scp
+
+---
 ## Setting an SSH Key
+
+---
 ## Optimizing Remote Running
 
-`this is some code`
+
 
