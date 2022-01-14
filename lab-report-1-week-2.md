@@ -37,6 +37,10 @@ After logging in, we can try some commands
 
 ---
 ## Moving Files with scp
+To use scp, we have to exit the remote login first with `exit`\
+Find a file to scp in the directory and type `scp <filename> username@ieng6.ucsd.edu:~/`
+
+![Image](img/scp.png)
 
 ---
 ## Setting an SSH Key
