@@ -78,6 +78,8 @@ ctrl+s to save file\
 `javac <filename.java>`\
 `java <filename>`
 
+This entire process is over **100 keystrokes**
+
 **New method:**\
 *turned on auto save on vscode so no keystrokes*\
 By utilizing the up arrow for past commands, the scp and ssh commands can both be located in 2-3 keystrokes
