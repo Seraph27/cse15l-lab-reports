@@ -4,7 +4,7 @@ title: Lab Report 1 (week 2)
 ---
 
 ## Installing VScode
-Download vscode from the official website
+Download vscode from the [official website](https://code.visualstudio.com/)
 
 ![Image](img/vscode_download.png)
 
@@ -66,6 +66,28 @@ We can type ssh followed by the command directly to use it without staying in th
 For example: `ssh ychao@ieng6.ucsd.edu "ls"` will list the current directory in the server directly
 
 ![Image](img/more_pleasant.png)
+
+We can compare the keystrokes to see how much more efficient all these optimizations can get us
+
+**Old method:**\
+ctrl+s to save file\
+`scp <filename> username@ieng6.ucsd.edu:~/`\
+*type password* (my password is 16 characters long)\
+`ssh <yourusername@ieng6.ucsd.edu>`\
+*type password again*\
+`javac <filename.java>`\
+`java <filename>`
+
+**New method:**\
+*turned on auto save on vscode so no keystrokes*\
+By utilizing the up arrow for past commands, the scp and ssh commands can both be located in 2-3 keystrokes
+
+Running the file can be combined with ssh too so the entire process can be reduced into about **10 keystrokes** 
+
+
+
+
+
 
 
 
