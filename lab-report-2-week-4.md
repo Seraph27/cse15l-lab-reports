@@ -5,7 +5,7 @@ title: Lab Report 2 (week 4)
 
 # Code change 1
 *Note: the terminal is running test.java instead of MarkdownParse.java because I didn't save pictures of the symptoms before, so I needed a test file to record the outputs using previous versions of code. 
-- **Screenshot of github diff**
+- **Screenshot of github diff**\
 ![Image](report-2-img/first_fix.png)
 - **Test file for a failure-inducing input**:\
 *[test-file2.md](https://github.com/Seraph27/markdown-parse/blob/cf3b5e17a44db09c0ff8d7aade967b8b0dc6d57e/test-file2.md)*
