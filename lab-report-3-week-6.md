@@ -5,10 +5,11 @@ title: Lab Report 3 (week 6)
 
 # Setup Github Access from ieng6
 
-* Show where the public key you made is stored on Github and in your user account (screenshot)
+* **Show where the public key you made is stored on Github and in your user account (screenshot)**
+![Image](report-3-img/public_key.png)
+* **Show where the private key you made is stored on your user account (but not its contents) as a screenshot**\
+The private key is stored in `id_ed25519` 
+![Image](report-3-img/private_key.png)
+* **Show running git commands to commit and push a change to Github while logged into your ieng6 account**
 
-* Show where the private key you made is stored on your user account (but not its contents) as a screenshot
-
-* Show running git commands to commit and push a change to Github while logged into your ieng6 account
-
-* Show a link for the resulting commit
+* **Show a link for the resulting commit**
