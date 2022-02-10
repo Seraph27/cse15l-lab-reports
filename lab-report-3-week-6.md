@@ -11,7 +11,10 @@ title: Lab Report 3 (week 6)
 ![Image](report-3-img/private_key.png)
 The private key is stored in `id_ed25519` 
 
-* **Show running git commands to commit and push a change to Github while logged into your ieng6 account**
+* **Show running git commands to commit and push a change to Github while logged into your ieng6 account**\
+Commiting on ieng6 remote server
+![Image](report-3-img/gitcommit.png)
+Pushing changes from ieng6 server
 ![Image](report-3-img/working_commit.png)
 
 * **Show a link for the resulting commit**\
