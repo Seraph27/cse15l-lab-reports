@@ -34,8 +34,11 @@ In this case, it is clear that our group's implemented returned a link when it s
 The bug is simply that our code did not take into account weird unicode characters such as 
 /f&ouml;&ouml; and
 "f&ouml;&ouml;"
-and the program just considered is as part of the url.
+and the program just considered is as part of the url. 
 
+![Image](report-5-img/fix1.png)
+
+To fix this problem, we simply need to add a section of code, preferably a method that checks for weird unicode characters, similiar to how checkExtension() works. On line 57 we can then call this method to make sure the links does not get added in when it contains bad characters. 
 
 # Different Results 2
 **Line 1049 -> 577.md**
@@ -54,3 +57,7 @@ and the program just considered is as part of the url.
 In this case, I would argue that our code is correct cause a few weeks ago we did an implementation where we are supposed to remove image links (urls with image extensions such as .png & .jpg) cause they don't cound as links. The provided implementation doesn't take that into account.
 
 The bug is simply it returned a .jpg image (which wouldn't be an actual link unless you have the image locally), so the fix would be not returning any links with image extensions behind it.
+
+![Image](report-5-img/fix2.png)
+
+After digging a bit in the source code of common mark, it seems like they do parse image links, but they do return it into a html img tag. To exclude this particular case, just simply remove this code so image links will not be returned. 
